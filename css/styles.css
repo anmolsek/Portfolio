@@ -14,11 +14,7 @@
     font-weight: bold;
   }
   
-  @font-face {
-    font-family: "Helvetica Now Display";
-    src: url('/fonts/HelveticaNowDisplay-Light.ttf') format("truetype");
-    font-weight: lighter;
-  }
+  
 
   nav{
     display: flex;
@@ -32,6 +28,7 @@
   nav a {
     font-family: "Helvetica Now Display";
     text-decoration: none;
+    font-weight: normal;
     font-size: 30px;
     margin: 0%;
     color: black;
@@ -60,6 +57,36 @@
     color: black;
   }
 
+  h2{
+    font-family: "Helvetica Now Display";
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0%;
+    font-size: 30px;
+    color: black;
+  }
+
+  h3{
+    font-family: "Helvetica Now Display";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0%;
+    font-size: 25px;
+    color: black;
+  }
+
+  p{
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    margin: 0%;
+    font-size: 20px;
+    color: black;
+  }
+
+  mark{
+    background-color: #aaaaff;
+  }
+
   .page-header{
     padding-top: 160px;
     padding-left: 100px ;
@@ -70,5 +97,38 @@
     margin: 0 auto; 
     
   }
+
+  .text-headings{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-title{
+    padding-bottom: 20px;
+  }
+
+  .section-one{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;   
+    padding-top: 20px;
+  }
+
+  
+  .font-title{
+    padding-bottom: 20px;
+  }
+
+  .chosen-font h1{
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .chosen-font h2{
+    font-size: 40px;
+    font-weight: normal;
+  }
+
 
   
