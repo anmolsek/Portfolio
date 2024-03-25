@@ -192,4 +192,47 @@
 
 
 
+.analysis-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.analysis-one p{
+  max-width: 800px;
+  padding-top: 15px;
+}
+
+.analysis-one h2{
+  padding-bottom: 15px;
+}
+
+.steps{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.analysis-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.analysis-two p{
+  max-width: 800px;
+  padding-top: 15px;
+}
+
+.analysis-two h2{
+  padding-bottom: 15px;
+}
+
+
+
+
+
   
