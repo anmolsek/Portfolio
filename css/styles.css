@@ -231,6 +231,18 @@
   padding-bottom: 15px;
 }
 
+.intro{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.intro h1{
+  font-size: 40px;
+}
+
 
 
 
