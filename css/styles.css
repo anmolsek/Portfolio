@@ -4,8 +4,20 @@
   
   @font-face {
     font-family: "Helvetica Now Display";
-    src: url('/fonts/HelveticaNowDisplay-Regular.ttf ') format("truetype");
-
+    src: url('/fonts/HelveticaNowDisplay-Regular.ttf') format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Now Display";
+    src: url('/fonts/HelveticaNowDisplay-Bold.ttf') format("truetype");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Now Display";
+    src: url('/fonts/HelveticaNowDisplay-Light.ttf') format("truetype");
+    font-weight: lighter;
   }
 
   nav{
@@ -14,6 +26,7 @@
     align-items: center;
     max-width: 1300px;
     margin: 0 auto; 
+    padding-bottom: 20px;
   }
 
   nav a {
@@ -36,6 +49,26 @@
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 10px;
+  }
+
+  h1{
+    font-family: "Helvetica Now Display";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0%;
+    font-size: 80px;
+    color: black;
+  }
+
+  .page-header{
+    padding-top: 160px;
+    padding-left: 100px ;
+    padding-bottom: 200px ;
+    background-color: #e4e4e4;
+    
+    max-width: 1300px;
+    margin: 0 auto; 
+    
   }
 
   
