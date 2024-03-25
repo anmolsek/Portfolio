@@ -35,6 +35,13 @@
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 10px;
+    transition: background-color 0.35s;
+  }
+
+  nav a:hover, nav a:focus{
+    color:#000000;
+    font-weight: bold;
+    text-decoration: underline;
   }
 
   nav h1{
@@ -111,7 +118,7 @@
     display: flex;
     justify-content: space-around;
     max-width: 1300px;
-    margin: 0 auto;   
+    margin: 0 auto; 
     padding-top: 20px;
   }
 
@@ -129,6 +136,60 @@
     font-size: 40px;
     font-weight: normal;
   }
+
+  .section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto; 
+
+    padding-top: 20px;
+    
+  }
+
+  .section-three a{
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0%;
+    color: black;
+    transition: background-color 0.35s;
+  }
+
+  .section-three a:hover, .section-three a:focus{
+    color:#000000;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .section-three, .section-four{
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 20px;
+}
+  
+.section-four{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+  .section-four a{
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0%;
+    color: black;
+}
+
+.section-four a:hover, .section-four a:focus{
+  color:#5e5eff;
+}
+
 
 
   
