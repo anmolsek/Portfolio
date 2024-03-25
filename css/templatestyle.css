@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Now Display";
+    src: url('/fonts/HelveticaNowDisplay-Regular.ttf') format("truetype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Now Display";
+    src: url('/fonts/HelveticaNowDisplay-Bold.ttf') format("truetype");
+    font-weight: bold;
+  }
+  
+  
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto; 
+    padding-bottom: 20px;
+  }
+
+  nav a {
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0%;
+    color: black;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    transition: background-color 0.35s;
+  }
+
+  nav a:hover, nav a:focus{
+    color:#000000;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  nav h1{
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0%;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  h1{
+    font-family: "Helvetica Now Display";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0%;
+    font-size: 80px;
+    color: black;
+  }
+
+  h2{
+    font-family: "Helvetica Now Display";
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0%;
+    font-size: 30px;
+    color: black;
+  }
+
+  h3{
+    font-family: "Helvetica Now Display";
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0%;
+    font-size: 25px;
+    color: black;
+  }
+
+  p{
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    margin: 0%;
+    font-size: 20px;
+    color: black;
+  }
+
+  mark{
+    background-color: #aaaaff;
+  }
+
+  .intro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .intro h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+
+
+
+
+
+ 
