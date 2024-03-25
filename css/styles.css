@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Now Display";
+    src: url('/fonts/HelveticaNowDisplay-Regular.ttf ') format("truetype");
+
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto; 
+  }
+
+  nav a {
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0%;
+    color: black;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  nav h1{
+    font-family: "Helvetica Now Display";
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0%;
+    color: #5e5eff;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  
